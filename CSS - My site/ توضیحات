@@ -1,0 +1,33 @@
+start to be like seanhalpin.io
+each html element is a box.
+"pesticide " is a great tool for debuggin CSS- +CTRL.
+Block elements naturally get 100% width and will block others out! like p div or headings
+span / img / anchor are inline element do not block other blocks out. for inline elements
+we can not change width !
+changing <p></p> to inline : in css: display: inline or inline-block ---> height can be change too
+display : block  or inline or inline-block or none (which hide it)
+visibility : hidden will arrange other like this elemnt is there but cannot be seen.
+in css we have xyz and by html defult <div><h1>a<span>b</span>c</h1></div> the b will be over h1 and over div block.
+Position: The position can be changed in css to neglect the defult html position which is Static - absolute relative or fixed are other positionning
+by changing position: relative then top: 20px other element will stay the same because as default others are still static!
+relative position: is from the natural   one and Absolute positioning is from the parrent one and also there wont be any goust there ! !
+Absolute position: will take the block out of html flow. will drive absolute position for the element than other like as it was never been there!
+relative and absolute position: Between relative and absolute position by default the relative one pushes the absolute one in 1 parrent unnless give the absolute one xy
+Position:fix "fix" position will not change with scroll good for Nav bar
+text:align:Centering everiting: body {text-align:center} make everything center without width set. and for the the text width 20% should add margin 0 auto:
+margin: 0 auto; make the block centerize.
+class= = = = = = =  دارد class="mosavii"
+BY EDITING CSS WORK WITH ALT+TAB TO change
+Border padding and margin: padding is inside of the border and the absolute ones will stay in padding zone. on the other hand, if you get some margine the border will be pushed to the block way and what is it. But the container will be all of them! it means absoulute positions will start from all container,
+absolute position and the page:When I absolute-position an element inside an element, the coordinates are calculated from the edges of the container without taking into account the borders. margin-space is part of the container, although margin is out of the "borders" of our the container.
+Font :different between sherif and sans-sherif is between the edge of alphabets.
+Font : Monospace font is the coding font and is easiest to read.
+Font :- family: X,Y,Z,Sans if the web browser didn't have preinstalled x the browser will show Y. and more on our fall backs ...
+Font : cssfontstack.com to find  a "set" of fonts to show similar for the not-installed-font-problem
+Font : fonts.google.com  will give you a link for not installed ones. should be included in Head index.html! the fonts will be embeded automaticly. the site gives articles too about fonts too..
+Font : Webdev sugesstions : [ for text body sherif : merriweather sherif][ for sans-sharif: monserat] [ for hadnd writings: sacramento ]
+Font:  em 1 em is as same as parent font size. by this the font will be dynamic. do not use px for font
+Font : rem and em . rem is root em and does not get effected of upstream. the web dev says rem
+
+Float : use float ro wrap text around a pic or something like that
+Clear: will put the thing to where its clear's side is clear!
